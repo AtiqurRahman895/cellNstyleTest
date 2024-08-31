@@ -1,0 +1,52 @@
+html{
+    --primaryColor: #007BFF;
+    --secondaryColor: rgba(0, 123, 255, 0.15);
+    --accentColor: rgba(0, 123, 255, 0.5);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+}
+.blueBtn{
+    width: fit-content;
+    background: var(--primaryColor) !important;
+    color: white !important;
+    border: 2px solid var(--accentColor) !important;
+}
+.blueBtn:hover{
+    background: var(--accentColor) !important;
+    transition: 0.5s;
+
+}
+
+.heroIndicator {
+  /* border: none;
+  padding: 2px 13px; */
+  background: rgba(0, 0, 0, 0.495) !important;
+  background-clip: padding-box !important;
+}
+.heroNextPreBtn{
+    margin-top: 1.5rem ;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.heroNextPreBtn i{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.heroNextPreBtn i:hover{
+    transition: 0.5s;
+    background: var(--accentColor);
+    color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+}
+.heroImagesCarouselBtn .active {
+  background: var(--primaryColor) !important;
+  background-clip: padding-box !important;
+}
+.heroImagesCarouselBtn {
+  justify-content: start !important;
+  margin-inline: 0px !important;
+}
