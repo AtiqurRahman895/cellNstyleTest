@@ -8,52 +8,87 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- js -->
+     <script src="./static/javaScript/main.js" defer></script>
+
     <!-- Fontawsome -->
-
-
-    <link
-      rel="stylesheet"
-      data-purpose="Layout StyleSheet"
-      title="Web Awesome"
-      href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d"
-    >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
-      >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
-      >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
-      >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
-      >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
-      >
-
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
-      >
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
 
 </head>
 <body>
-    <!-- background: rgb(0,123,255);
-    background: linear-gradient(90deg, rgba(0,123,255,0.15) 0%, rgba(0,123,255,0.5) 50%); -->
+
+  <!-- Header Start -->
+
+  <header class="fixed-top headerSection">
+    <div class="navbar navbar-expand-lg bg-transparent pt-md-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">CELL<b style="color: #007bff;">N</b>STYLE</a>
+        <div class="d-flex gap-2 align-items-center">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="blueBorderBtn btn d-none d-sm-inline-block d-lg-none">Book a repair</a>
+        </div>
+  
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Repair Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+
+
+          </ul>
+          <a href="#" class="blueBorderBtn btn mx-sm-auto mx-lg-0 d-sm-none d-lg-inline-block">Book a repair</a>
+  
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- Header end -->
+
+  <!-- Hero Section Start -->
     
-    <section class="heroSection" style="background: linear-gradient(90deg, rgba(0,123,255,0.10) 0%, rgba(0,123,255,0.5) 70%);">
+    <section class="heroSection" style="background: linear-gradient(90deg, rgba(0,123,255,0.10) 0%, rgba(0,123,255,0.5) 70%); padding-top: 5rem;">
         <div id="heroImagesCarousel" class="heroImagesCarousel carousel slide container m-auto" data-bs-wrap="true" data-bs-ride="carousel">
             <!-- <div class="heroImagesCarouselBtn carousel-indicators">
               <button type="button" data-bs-target="#heroImagesCarousel" data-bs-slide-to="0" class="active heroIndicator"></button>
@@ -64,25 +99,29 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="d-flex align-items-center justify-content-center order-lg-2">
+                    <img src="./static/images/heroImages/heroImage1_bgRemoved.png" class="w-100" alt="...">
+                </div>
                     <div class="d-flex flex-column justify-content-center gap-2 py-5 pe-5">
                         <h1 class="text-sm-center text-lg-start">Fast & Reliable <span style="color: #007bff;">Phone Repairs</span></h1>
                         <p class="text-sm-center text-lg-start">Get your phone back in perfect working condition with our expert repair services. We handle all major brands with care.</p>
-                        <a href="#" class="blueBtn btn mx-sm-auto mx-lg-0">Repair phone</a>
+                        <a href="#" class="blueBtn btn mx-sm-auto mx-lg-0">Call now</a>
                         <div class="heroNextPreBtn mx-sm-auto mx-lg-0">
                             <i class="fa-solid fa-angle-left" type="button" data-bs-target="#heroImagesCarousel" data-bs-slide="prev"></i>
                             <i class="fa-solid fa-angle-right" type="button" data-bs-target="#heroImagesCarousel" data-bs-slide="next"></i>
                         </div>
                         
                     </div>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="./static/images/heroImages/heroImage1_bgRemoved.png" class="w-100" alt="...">
-                    </div>
+
     
                 </div>
               </div>
 
               <div class="carousel-item">
                 <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="d-flex align-items-center justify-content-center order-lg-2">
+                    <img src="./static/images/heroImages/heroImage2_bgRemoved.png" class="w-100" alt="...">
+                </div>
                     <div class="d-flex flex-column justify-content-center gap-2 py-5 pe-5">
                         <h1 class="text-sm-center text-lg-start">Your One-Stop Solution for <span style="color: #007bff;">all Device Repairs</span></h1>
                         <p class="text-sm-center text-lg-start">No matter the device - smartphone, tablet, laptop, or console. We offer efficient repair services that get your gadgets working again quickly.</p>
@@ -92,15 +131,16 @@
                             <i class="fa-solid fa-angle-right" type="button" data-bs-target="#heroImagesCarousel" data-bs-slide="next"></i>
                         </div>                        
                     </div>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="./static/images/heroImages/heroImage2_bgRemoved.png" class="w-100" alt="...">
-                    </div>
+
     
                 </div>
               </div>
 
               <div class="carousel-item">
                 <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="d-flex align-items-center justify-content-center order-lg-2">
+                    <img src="./static/images/heroImages/heroImage3_bgRemoved.png" class="w-100" alt="...">
+                </div>
                     <div class="d-flex flex-column justify-content-center gap-2 py-5 pe-5">
                         <h1 class="text-sm-center text-lg-start"><span style="color: #007bff;">Affordable Accessories</span> for Every Device</h1>
                         <p class="text-sm-center text-lg-start">Browse our wide selection of accessories designed to enhance your phone, tablet, or computer experience.</p>
@@ -110,15 +150,16 @@
                             <i class="fa-solid fa-angle-right" type="button" data-bs-target="#heroImagesCarousel" data-bs-slide="next"></i>
                         </div>                        
                     </div>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="./static/images/heroImages/heroImage3_bgRemoved.png" class="w-100" alt="...">
-                    </div>
+
     
                 </div>
               </div>
 
               <div class="carousel-item">
                 <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="d-flex align-items-center justify-content-center order-lg-2">
+                    <img src="./static/images/heroImages/heroImage4_bgRemoved.png" class="w-100" alt="...">
+                </div>                  
                     <div class="d-flex flex-column justify-content-center gap-2 py-5 pe-5">
                         <h1 class="text-sm-center text-lg-start"><span style="color: #007bff;">Sell</span>  Your Old Devices</h1>
                         <p class="text-sm-center text-lg-start">Got old gadgets? Trade them in for cash! We offer competitive prices for phones, tablets, PCs, and more.</p>
@@ -129,9 +170,7 @@
                         </div>
                         
                     </div>
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="./static/images/heroImages/heroImage4_bgRemoved.png" class="w-100" alt="...">
-                    </div>
+
     
                 </div>
               </div>
@@ -141,7 +180,7 @@
           </div>
     </section>
 
-
+  <!-- Hero Section end -->
     
 </body>
 </html>
