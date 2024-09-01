@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6{
     gap: 1rem;
 }
 .heroNextPreBtn i{
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0.3rem 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.531);
     border-radius: 10px;
