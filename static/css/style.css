@@ -11,6 +11,9 @@ h5,
 h6 {
   font-weight: 700 !important;
 }
+a{
+    text-decoration: none !important;
+}
 .blueBtn {
   width: fit-content;
   background: linear-gradient(90deg, #007bff80 0%, #007bff 100%) !important;
