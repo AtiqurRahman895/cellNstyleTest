@@ -1,46 +1,64 @@
-html{
-    --primaryColor: #007BFF;
-    --secondaryColor: rgba(0, 123, 255, 0.15);
-    --accentColor: rgba(0, 123, 255, 0.5);
+html {
+  --primaryColor: #007bff;
+  --secondaryColor: rgba(0, 123, 255, 0.15);
+  --accentColor: rgba(0, 123, 255, 0.5);
 }
-h1,h2,h3,h4,h5,h6{
-    font-weight: 700 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
 }
-.blueBtn{
-    width: fit-content;
-    background: linear-gradient(90deg, #007bff80 0%, #007BFF 100%) !important;
-    color: white !important;
-    border: 2px solid var(--accentColor) !important;
+.blueBtn {
+  width: fit-content;
+  background: linear-gradient(90deg, #007bff80 0%, #007bff 100%) !important;
+  color: white !important;
+  border: 2px solid var(--accentColor) !important;
 }
-.blueBtn:hover{
-    transition: 0.6s;
-    background: linear-gradient(90deg, #007BFF 0%, #007bff80 100%) !important;
-
+.blueBtn:hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, #007bff 0%, #007bff80 100%) !important;
 }
-.blueBorderBtn{
-    width: fit-content !important;
-    color: var(--primaryColor) !important;
-    border: 2px solid var(--primaryColor) !important;
+.blueBorderBtn {
+  width: fit-content !important;
+  color: var(--primaryColor) !important;
+  border: 2px solid var(--primaryColor) !important;
 }
-.blueBorderBtn:hover{
-    transition: 0.6s;
-    color: white !important;
-    background: var(--primaryColor) !important;
-    border: 2px solid var(--accentColor) !important;
+.blueBorderBtn:hover {
+  transition: 0.6s;
+  color: white !important;
+  background: var(--primaryColor) !important;
+  border: 2px solid var(--accentColor) !important;
+}
+.commonSecton{
+    margin-block: 1rem;
+}
+@media (min-width:768px) {
+    .commonSecton{
+        margin-block: 2rem;
+    }
+}
+@media (min-width:1200px) {
+    .commonSecton{
+        margin-block: 3rem;
+    }
 }
 
 /* Header start */
 
-.headerSectionAnimation, .headerSection:has(.show){
-    background: #ffffff33 !important;
-    backdrop-filter: blur(20px);
+.headerSectionAnimation,
+.headerSection:has(.show) {
+  background: #ffffff33 !important;
+  backdrop-filter: blur(20px);
 }
-.navbar-toggler-icon{
-    font-size: 1rem;
+.navbar-toggler-icon {
+  font-size: 1rem;
 }
 
-.nav-item:hover a{
-    color: var(--primaryColor) !important;
+.nav-item:hover a {
+  color: var(--primaryColor) !important;
 }
 
 /* Header end */
@@ -53,23 +71,23 @@ h1,h2,h3,h4,h5,h6{
   background: rgba(0, 0, 0, 0.495) !important;
   background-clip: padding-box !important;
 }
-.heroNextPreBtn{
-    margin-top: 1.5rem ;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.heroNextPreBtn {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.heroNextPreBtn i{
-    font-size: 1rem;
-    padding: 0.3rem 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.531);
-    border-radius: 10px;
+.heroNextPreBtn i {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.531);
+  border-radius: 10px;
 }
-.heroNextPreBtn i:hover{
-    transition: 0.5s;
-    background: var(--accentColor);
-    color: var(--primaryColor);
-    border: 1px solid var(--primaryColor);
+.heroNextPreBtn i:hover {
+  transition: 0.5s;
+  background: var(--accentColor);
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
 }
 .heroImagesCarouselBtn .active {
   background: var(--primaryColor) !important;
@@ -80,4 +98,25 @@ h1,h2,h3,h4,h5,h6{
   margin-inline: 0px !important;
 }
 
-/* Hero Section end*/
+/* Hero Section end */
+
+/* Service Section start */
+
+.serviceCard {
+  flex-grow: 1;
+  flex-shrink: 0;
+  background: var(--secondaryColor) !important;
+  border-color: var(--accentColor) !important;
+}
+
+.serviceCard:hover {
+  background: #ffffff !important;
+  box-shadow: 0 10px 15px 3px var(--accentColor) !important;
+  transition: all 0.2s ease-out;
+}
+.serviceCard:hover i {
+  color: var(--primaryColor) !important;
+  transition: all 0.2s ease-out;
+}
+
+/* Service Section end */
