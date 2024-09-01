@@ -35,6 +35,9 @@ h1,h2,h3,h4,h5,h6{
     background: #ffffff33 !important;
     backdrop-filter: blur(20px);
 }
+.navbar-toggler-icon{
+    font-size: 1rem;
+}
 
 .nav-item:hover a{
     color: var(--primaryColor) !important;
