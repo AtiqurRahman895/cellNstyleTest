@@ -3,6 +3,9 @@ html {
   --secondaryColor: rgba(0, 123, 255, 0.15);
   --accentColor: rgba(0, 123, 255, 0.5);
 }
+*{
+  scroll-behavior: smooth;
+}
 h1,
 h2,
 h3,
@@ -106,8 +109,7 @@ a{
 /* Service Section start */
 
 .serviceCard {
-  flex-grow: 1;
-  flex-shrink: 0;
+  flex: 1 0 auto !important;
   background: var(--secondaryColor) !important;
   border-color: var(--accentColor) !important;
 }
